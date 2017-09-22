@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">slike</string>
+    <string name="form_username">Votre prénom</string>
+    <string name="form_email">Votre email</string>
+    <string name="form_password">Votre password</string>
+    <string name="form_login">Login</string>
+    <string name="form_register">Register</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
