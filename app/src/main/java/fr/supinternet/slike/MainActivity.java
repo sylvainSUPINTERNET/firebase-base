@@ -273,7 +273,7 @@ public class MainActivity extends AppCompatActivity {
                                             FirebaseUser user = mAuth.getCurrentUser();
                                             //updateUI(user);
 
-                                            User user1 = new User(email.getText().toString(), username.getText().toString());
+                                            User user1 = new User(username.getText().toString(), email.getText().toString());
                                             mDatabase.child(user.getUid()).setValue(user1);
 
                                             loginLayout.setBackgroundColor(0);
